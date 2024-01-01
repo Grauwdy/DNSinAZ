@@ -27,7 +27,7 @@ This lab hones in on the practical aspects of DNS, a fundamental concept in IT o
 <p>
 While logged into the client as an admin, let's perform a diagnostic on the command prompt. Pinging "mainframe" currently results in failure. Similarly, using nslookup "mainframe" yields no DNS record. To address this, we'll create a DNS A-record for "mainframe" on the domain controller.
 
-Navigate to the DNS Manager on the domain controller, specifically within the Forward Lookup Zones tab, corresponding to the domain you established (e.g., ernestotest.com). Right-click on the page and initiate the creation of a New Host. Specify the name as "mainframe," and set the IP address identical to the domain controller's to facilitate resolution via ping. Refresh the DNS server to ensure the new record is updated.
+Navigate to the DNS Manager on the domain controller, specifically within the Forward Lookup Zones tab, corresponding to the domain you established (e.g., alaingarciadomain.com). Right-click on the page and initiate the creation of a New Host. Specify the name as "mainframe," and set the IP address identical to the domain controller's to facilitate resolution via ping. Refresh the DNS server to ensure the new record is updated.
 
 Returning to the client, try pinging "mainframe" once more. This time, you should observe successful resolution, confirming the effectiveness of the newly created DNS A-record.
 </p>
@@ -35,8 +35,8 @@ Returning to the client, try pinging "mainframe" once more. This time, you shoul
 
 <p>
 <img src="https://i.imgur.com/OdsLl5x.png" height="80%" width="80%" alt="DNS Steps"/>
-<img src="https://i.imgur.com/ds0SCKW.png" height="80%" width="80%" alt="DNS Steps"/>
-<img src="https://i.imgur.com/d4cXTCS.png" height="80%" width="80%" alt="DNS Steps"/>
+<img src="https://i.imgur.com/fmh7mlp.png" height="80%" width="80%" alt="DNS Steps"/>
+<img src="https://i.imgur.com/rpsVpac.png" height="80%" width="80%" alt="DNS Steps"/>
 </p>
 <p>
 In the following exercise, we'll explore the DNS cache. On the domain controller, I modified the record address for "mainframe" to 8.8.8.8 (Google) and refreshed the DNS server. Despite this change, when attempting to ping "mainframe" from the client, it still references the old IP address. Running the command ipconfig /displaydns reveals that the DNS cache retains the outdated IP.
