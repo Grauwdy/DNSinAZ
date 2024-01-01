@@ -21,8 +21,8 @@ This lab hones in on the practical aspects of DNS, a fundamental concept in IT o
 
 <p>
 <img src="https://i.imgur.com/5pjgtVz.png" height="80%" width="80%" alt="DNS Steps"/>
-<img src="https://i.imgur.com/Zl04Jyt.png" height="80%" width="80%" alt="DNS Steps"/>
-<img src="https://i.imgur.com/96xUgLF.png" height="80%" width="80%" alt="DNS Steps"/>
+<img src="https://i.imgur.com/ha2QGdD.png" height="80%" width="80%" alt="DNS Steps"/>
+<img src="https://i.imgur.com/jzD1hLa.png" height="80%" width="80%" alt="DNS Steps"/>
 </p>
 <p>
 While logged into the client as an admin, let's perform a diagnostic on the command prompt. Pinging "mainframe" currently results in failure. Similarly, using nslookup "mainframe" yields no DNS record. To address this, we'll create a DNS A-record for "mainframe" on the domain controller.
@@ -34,8 +34,7 @@ Returning to the client, try pinging "mainframe" once more. This time, you shoul
 <br />
 
 <p>
-<img src="https://i.imgur.com/nLlOGKl.png" height="80%" width="80%" alt="DNS Steps"/>
-<img src="https://i.imgur.com/p0VcajB.png" height="80%" width="80%" alt="DNS Steps"/>
+<img src="https://i.imgur.com/OdsLl5x.png" height="80%" width="80%" alt="DNS Steps"/>
 <img src="https://i.imgur.com/ds0SCKW.png" height="80%" width="80%" alt="DNS Steps"/>
 <img src="https://i.imgur.com/d4cXTCS.png" height="80%" width="80%" alt="DNS Steps"/>
 </p>
