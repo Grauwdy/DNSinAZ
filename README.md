@@ -46,9 +46,9 @@ To rectify this, we need to clear the cache. The command ipconfig /flushdns will
 <br />
 
 <p>
-<img src="https://i.imgur.com/rI2NYU7.png" height="80%" width="80%" alt="DNS Steps"/>
-<img src="https://i.imgur.com/FmVM0IU.png" height="80%" width="80%" alt="DNS Steps"/>
-<img src="https://i.imgur.com/dyWduSW.png" height="80%" width="80%" alt="DNS Steps"/>
+<img src="https://i.imgur.com/5usVNSm.png" height="80%" width="80%" alt="DNS Steps"/>
+<img src="https://i.imgur.com/EwVZD3A.png" height="80%" width="80%" alt="DNS Steps"/>
+<img src="https://i.imgur.com/5kDER7b.png" height="80%" width="80%" alt="DNS Steps"/>
 </p>
 <p>
 Now, let's create a CNAME record on the DNS server to direct "search" to Google. Within the DNS Manager's Forward Lookup Zones tab, navigate to the tab corresponding to the domain. Create a new CNAME record named "search" and set it to point to Google. Don't forget to refresh the server to save the changes.
